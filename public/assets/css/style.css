@@ -1,0 +1,38 @@
+body{
+    background-color: #ffca28;
+}
+
+h2{
+    color:red;
+    font-style:italic;
+}
+
+#hamburger{
+    width:300px;
+    height:300px;
+    display: block;
+    margin: auto;
+}
+
+#submissionForm{
+    display: inline-block;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+#devoured > li > .burgerName{
+    opacity: 0.6;
+}
+
+li>.burgerName{
+    display: inline-block;
+    list-style-position:inside;
+    background-color:white;
+    border: 2px solid gray;
+    margin:2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
